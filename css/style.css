@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+body {
+  font-family: 'Hahmlet', serif;
+  color: #d3d3d3;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,67,119,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+}
+
+h2{
+  font-size: 3em;
+  padding: 10px 10px;
+}
+
+p {
+  font-size: 1.2em;
+  padding: 10px 10em
+}
+
+#reviews h2, p {
+  float: left;
+}
+
+h3, h4, h5 {
+	padding: 10px 10px
+}
+
+img {
+  width: auto;
+  max-height: 25%;
+  border-radius: 50px;
+  float: right;
+  padding: 10px 10px;
+}
+
+section {
+  border: 3px ;
+}
+
+iframe {
+  width: auto;
+  height: 50%;
+  float: left;
+}
+
+#gabagoolvid {
+  width: auto;
+  height: 50%;
+  float: left;
+}
+
+#subtitle {
+  text-align: center;
+  float: none;
+}
+
+#navigation {
+  background-color: green;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#navigation ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#navigation ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#navigation ul li a:hover {
+  background-color: #000;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8"/>
+  <title>Alex DeMuth Resume</title> 
+</head>
+<body>
+  <nav id="navigation">
+  <ul>
+    <li><a href="index.html">All About Alex</a></li>
+	<li><a href="resume.html">Alex's Resume</a></li>
+    <li><a href="reviews.html">Alex's Reviews</a></li>
+  </ul>
+  </nav>
+  <section>
+  <h1>Alex DeMuth</h1>
+  <ul>
+    <li>ademuth1@hawk.iit.edu</li>
+    <li>Chicago, Illinois</li>
+  </ul>
+  </section>
+  <section>
+  <h2>Education</h2>
+  <h4>Illinois Institute of Technology 08/2020 - 05/2024</h4>
+    <h5>Majoring in Applied Cyber Security and Information Technology</h5>
+    <h5>Achievements</h5>
+      <ul>
+        <li>Recipient of Heald Scholarship and IIT Housing Scholarship</li>
+        <li>GPA of 3.74</li>
+        <li>Member of Delta Tau Delta Fraternity</li>
+      </ul>
+  </section>
+  <section>
+  <h2>Work Experience</h2>
+  <h4>IT Intern at Smokeball 06/2021 - Present</h4>
+    <h5>Began internship as a temporary summer position; in August the position was modified to remain indefinitely</h5>
+    <h5>Responsibilities</h5>
+      <ul>
+        <li>Efficiently rearrange monitors, computers, keyboards, etc. within an office environment</li>
+        <li>Tag and document various electronics in a database by recording manufacturers, models, serial numbers, warranty information, photographs, etc.</li>
+        <li>Install specialized software and updates onto computers</li>
+        <li>Configure computer settings to specific preferences</li>
+        <li>Fix day-to-day issues that arise with employee's electronics</li>
+        <li>Maintain and repair electronics and machines around the workspace</li>
+      </ul>
+  </section>
+</body>
+</html>
