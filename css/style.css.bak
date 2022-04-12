@@ -95,3 +95,8 @@ iframe {
 #navigation ul li a:hover {
   background-color: #000;
 }
+
+#map {
+  height: 400px;
+  width: 100%;
+}
