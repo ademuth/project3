@@ -97,14 +97,14 @@ iframe {
 }
 
 #map {
-  height: 25em;
+  height: 60%;
   width: 80%;
   border-radius: 0px;
   margin: 40px auto;
 }
 
 #border {
-  height: 27em;
+  height: 65%;
   width: 85%;
   background-color: #FFC594;
   margin:0 auto;
