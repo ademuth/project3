@@ -4,9 +4,13 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 	<meta charset="UTF-8">
-	<title>Title</title>
+	<title>Map</title>
   </head>
   <body>
-	<p></p>
+    <h1>Lithuania</h1>
+	<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRvekMly5ozsfbNh_0s85JATrrtmn4mwQ&callback=initMap&v=weekly"
+      async
+    ></script>
   </body>
 </html>
