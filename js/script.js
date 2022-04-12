@@ -1,7 +1,7 @@
 function initMap() {
-  const lithuania = { lat: 54.6872, lng: 25.2797 };
+  const lithuania = { lat: 54.6867, lng: 25.2906 };
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 8,
+    zoom: 10,
     center: lithuania,
   });
   const marker = new google.maps.Marker({
