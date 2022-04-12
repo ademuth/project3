@@ -100,5 +100,13 @@ iframe {
   height: 25em;
   width: 80%;
   border-radius: 0px;
-  padding: 10px 10px;
+  margin: 40px auto;
+}
+
+#border {
+  height: 27em;
+  width: 85%;
+  background-color: #FFC594;
+  margin:0 auto;
+  overflow: hidden;
 }
