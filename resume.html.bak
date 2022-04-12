@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <meta charset="utf-8"/>
   <title>Alex DeMuth Resume</title> 
 </head>
 <body>
   <nav id="navigation">
-  <ul>
-    <li><a href="index.html">All About Alex</a></li>
-	<li><a href="resume.html">Alex's Resume</a></li>
-    <li><a href="reviews.html">Alex's Reviews</a></li>
-  </ul>
+    <ul>
+      <li><a href="index.html">All About Alex</a></li>
+	  <li><a href="resume.html">Alex's Resume</a></li>
+      <li><a href="reviews.html">Alex's Reviews</a></li>
+    </ul>
   </nav>
   <section>
   <h1>Alex DeMuth</h1>
