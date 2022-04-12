@@ -97,7 +97,8 @@ iframe {
 }
 
 #map {
-  height: 400px;
+  height: auto;
   width: 80%;
   border-radius: 0px;
+  padding: 10px 10px;
 }
