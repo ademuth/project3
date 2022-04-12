@@ -97,15 +97,15 @@ iframe {
 }
 
 #map {
-  height: 600px;
-  width: 800px;
+  height: 60%;
+  width: 80%;
   border-radius: 0px;
   margin: 40px auto;
 }
 
 #border {
-  height: 650px;
-  width: 850px;
+  height: 65%;
+  width: 85%;
   background-color: #FFC594;
   margin:0 auto;
   overflow: hidden;
