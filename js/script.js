@@ -12,12 +12,6 @@ function initMap() {
     map: map,
   });
   
-  const marker = new google.maps.Marker({
-	position: flag,
-	map: map,
-	animation: google.maps.Animation.BOUNCE,
-	icon: 'images/lithuania.jpg'
-	});
 }
 
 google.maps.event.addDomListener(window, 'load', initMap);
