@@ -22,20 +22,21 @@ p {
   padding: 10px 10em
 }
 
-#reviews h2, p {
-  float: left;
-}
-
 h3, h4, h5 {
 	padding: 10px 10px
 }
 
+
+#reviews {
+  float: none;
+  text-align: center;
+  }
+
 #reviews img {
   width: auto;
-  max-height: 25%;
-  border-radius: 50px;
-  float: right;
-  padding: 10px 10px;
+  max-height: 15%;
+  border-radius: 25px;
+  padding: 5px 5px;
 }
 
 section {
@@ -97,16 +98,48 @@ iframe {
 }
 
 #map {
-  height: 60%;
-  width: 80%;
+  height: 600px;
+  width: 800px;
   border-radius: 0px;
   margin: 40px auto;
 }
 
 #border {
-  height: 65%;
-  width: 85%;
+  height: 650px;
+  width: 850px;
   background-color: #FFC594;
   margin:0 auto;
   overflow: hidden;
+}
+
+}
+
+
+@media screen and (min-width: 960px) {
+  #reviews h2, p {
+    float: left;
+}
+
+  #reviews img {
+    width: auto;
+    max-height: 25%;
+    border-radius: 50px;
+    float: right;
+    padding: 10px 10px;
+}
+
+}
+
+@media screen and (min-width: 600px) {
+  #reviews {
+    float: none;
+	text-align: center;
+  }
+  
+  #reviews img {
+    width: auto;
+	max-height: 10%;
+	border-radius: 15px;
+	padding: 2.5px 2.5px;
+  }
 }

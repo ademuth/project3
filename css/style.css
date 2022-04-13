@@ -22,20 +22,21 @@ p {
   padding: 10px 10em
 }
 
-#reviews h2, p {
-  float: left;
-}
-
 h3, h4, h5 {
 	padding: 10px 10px
 }
 
+
+#reviews {
+  float: none;
+  text-align: center;
+  }
+
 #reviews img {
   width: auto;
-  max-height: 25%;
-  border-radius: 50px;
-  float: right;
-  padding: 10px 10px;
+  max-height: 15%;
+  border-radius: 25px;
+  padding: 5px 5px;
 }
 
 section {
@@ -109,4 +110,22 @@ iframe {
   background-color: #FFC594;
   margin:0 auto;
   overflow: hidden;
+}
+
+
+
+
+@media screen and (min-width: 960px) {
+  #reviews h2, p {
+    float: left;
+}
+
+  #reviews img {
+    width: auto;
+    max-height: 25%;
+    border-radius: 50px;
+    float: right;
+    padding: 10px 10px;
+}
+
 }
