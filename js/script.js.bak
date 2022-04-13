@@ -7,11 +7,17 @@ function initMap() {
     zoom: 10,
     center: castle,
   });
-  const marker = new google.maps.Marker({
+  const marker1 = new google.maps.Marker({
     position: castle,
     map: map,
   });
   
+  const marker2 = new google.maps.Marker({
+	position: flag,
+	map: map,
+	animation: google.maps.Animation.BOUNCE,
+	icon: 'images/lithuania.jpg'
+  });
 }
 
 google.maps.event.addDomListener(window, 'load', initMap);

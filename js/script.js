@@ -16,7 +16,7 @@ function initMap() {
 	position: flag,
 	map: map,
 	animation: google.maps.Animation.BOUNCE,
-	icon: 'images/lithuania.jpg'
+	icon: 'images/lithuaniasmall.jpg'
   });
 }
 
