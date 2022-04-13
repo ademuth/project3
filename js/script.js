@@ -1,5 +1,4 @@
 function initMap() {
-  alert('it works');
   const castle = { lat: 54.6867, lng: 25.2906 }; 
   const flag = { lat: 54.68, lng: 25.06 };
   
