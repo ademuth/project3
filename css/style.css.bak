@@ -112,7 +112,7 @@ iframe {
   overflow: hidden;
 }
 
-}
+
 
 
 @media screen and (min-width: 960px) {
@@ -128,18 +128,4 @@ iframe {
     padding: 10px 10px;
 }
 
-}
-
-@media screen and (min-width: 600px) {
-  #reviews {
-    float: none;
-	text-align: center;
-  }
-  
-  #reviews img {
-    width: auto;
-	max-height: 10%;
-	border-radius: 15px;
-	padding: 2.5px 2.5px;
-  }
 }
